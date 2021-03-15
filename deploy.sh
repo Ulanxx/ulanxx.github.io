@@ -9,5 +9,6 @@ git push origin main
 echo "Git Push Success\n";
 
 # 执行deploy
+yarn
 yarn deploy
 echo "Deploy gh-pages Success\n";

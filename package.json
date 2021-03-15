@@ -5,6 +5,7 @@
 	"clean": "rimraf dist",
     "start": "dumi dev",
     "build": "dumi build",
+	"postbuild": "echo milimili.online > dist/CNAME",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },

@@ -26,15 +26,15 @@ export default defineConfig({
       path: '/livehouse',
     },
     {
-      title: '21D',
-      path: '/21D',
+      title: '21Day',
+      path: '/21Day',
     },
     {
       title: 'link',
       children: [
-        { title: '微博', path: '' },
-        { title: '知乎', path: '' },
-        { title: '微信', path: '' },
+        { title: '微博', path: 'https://weibo.com/270911334' },
+        { title: '知乎', path: 'https://www.zhihu.com/people/xuan-jia-wei-27' },
+        { title: '微信', path: '/about/wechat' },
       ],
     },
     {

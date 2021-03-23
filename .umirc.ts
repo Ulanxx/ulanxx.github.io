@@ -22,12 +22,11 @@ export default defineConfig({
       path: '/collection',
     },
     {
-      title: 'LiveHouse',
-      path: '/livehouse',
-    },
-    {
       title: '21Day',
-      path: '/21Day',
+      children: [
+        { title: 'Flutter', path: '/collection/flutter' },
+        { title: '学测试', path: '/21Day/test' },
+      ],
     },
     {
       title: 'link',

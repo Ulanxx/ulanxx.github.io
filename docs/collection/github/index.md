@@ -20,3 +20,7 @@ dotfiles 是一个老牌的文件管理工具，之所以称它为文件管理�
 
 #### [全面的英文学习教程：English-level-up-tips-for-Chinese](https://github.com/byoungd/english-level-up-tips-for-Chinese)
  English-level-up-tips-for-Chinese 是一名开发者为备考托福的女神“指点”英文学习方法后整理的英文进阶学习资料。它会教你如何更好地学习英文，通过单词、阅读、口语、听力等四个方面多维度提升英文水平。虽然是个好教程，但是学习贵在坚持，希望 fuwafuwa 坚持，加油鸭 (^o^)/
+
+
+ #### [Bilibili助手](https://github.com/srcrs/BilibiliTask)
+哔哩哔哩(B站)自动完成每日任务， 投币，点赞，直播签到，自动兑换银瓜子为硬币，自动送出即将过期礼物，漫画App签到，大会员领取B币卷等。每天获得65点经验，助你快速升级到Lv6。

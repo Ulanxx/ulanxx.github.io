@@ -97,8 +97,8 @@ let ProxyMode = (function() {
         if(!instance){
             instance = new CreateUser(name)
         }
+    	return instance
     }
-    return instance
 })()
 
 let a = ProxyMode('aaa')

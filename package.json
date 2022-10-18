@@ -5,11 +5,11 @@
 	"clean": "rimraf dist",
     "start": "dumi dev",
     "build": "dumi build",
-	"postbuild": "echo milimili.online > dist/CNAME",
+	  "postbuild": "echo ulannxx.online > dist/CNAME",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  
+
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",

@@ -22,21 +22,6 @@ export default defineConfig({
       path: '/collection',
     },
     {
-      title: '21Day',
-      children: [
-        { title: 'Flutter', path: '/collection/flutter' },
-        { title: '学测试', path: '/21Day/test' },
-      ],
-    },
-    {
-      title: 'link',
-      children: [
-        { title: '微博', path: 'https://weibo.com/270911334' },
-        { title: '知乎', path: 'https://www.zhihu.com/people/xuan-jia-wei-27' },
-        { title: '微信', path: '/about/wechat' },
-      ],
-    },
-    {
       title: '关于我',
       path: '/about',
     },

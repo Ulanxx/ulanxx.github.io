@@ -61,7 +61,7 @@ React Native 是带着 React 的光环出生的一个跨平台框架，具备 Re
 
 > 例子：实现判断应用是否开启通知，如果未打开通知则进入设置页面开启通知。
 
-1. `IOS端 `
+1. `IOS端`
 
 - IOS 在 React Native 中，一个“原生模块”就是一个实现了“RCTBridgeModule”协议的 Objective-C 类。
 
@@ -98,11 +98,11 @@ RCT_EXPORT_METHOD(gotoOpenNotification) {
 
 注意两个宏：
 
-`RCT_EXPORT_METHOD `：用来设置给 JS 导出的 Native Module 名字。
+`RCT_EXPORT_METHOD`：用来设置给 JS 导出的 Native Module 名字。
 
-`RCT_EXPORT_MODULE `：给 JS 提供的方法通过`RCT_EXPORT_METHOD()`宏实现，必须明确的声明要给 JavaScript 导出的方法，否则 React Native 不会导出任何方法。
+`RCT_EXPORT_MODULE`：给 JS 提供的方法通过`RCT_EXPORT_METHOD()`宏实现，必须明确的声明要给 JavaScript 导出的方法，否则 React Native 不会导出任何方法。
 
-2. `Android端 `
+2. `Android端`
 
 首先新建一个 JavaModule 类继承 ReactContextBaseJavaModule。
 

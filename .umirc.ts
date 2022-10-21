@@ -6,24 +6,24 @@ export default defineConfig({
   logo: 'tx.png',
   navs: [
     {
-      title: '博客',
-      path: '/blog',
+      title: '前端',
+      path: '/fe',
     },
     {
-      title: '面试题',
-      path: '/interview',
+      title: '跨端',
+      path: '/hybrid',
     },
     {
-      title: 'GitHub',
-      path: 'https://github.com/mifind',
+      title: '构建体系',
+      path: '/builder',
     },
     {
-      title: '收藏',
-      path: '/collection',
+      title: 'Node.js',
+      path: '/node',
     },
     {
-      title: '关于我',
-      path: '/about',
+      title: 'Rust',
+      path: '/rust',
     },
   ],
   favicon: 'tx.png',
